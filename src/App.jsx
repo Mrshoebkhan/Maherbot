@@ -34,7 +34,7 @@ const App = () => {
     };
   
     try {
-      const response = await fetch(import.meta.env.VITE_API_URL, requestOptions);
+      const response = await fetch(import.meta.gitignore.VITE_API_URL, requestOptions);
       const data = await response.json();
       if (!response.ok) throw new Error(data.error.message || "Something went wrong!");
   
@@ -57,6 +57,7 @@ const App = () => {
 
   return (
     <div className="container">
+      <button>I am Branch</button>
       <CustomCursor/>
       <div className="chatbot-popup">
         {/* ChatBot Header */}
