@@ -1,0 +1,44 @@
+{
+  "name": "chatbot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^12.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-tooltip": "^5.28.0",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.8.1",
+    "tsparticles-engine": "^2.12.0",
+    "tsparticles-interaction-external-grab": "^2.12.0",
+    "tsparticles-interaction-external-push": "^2.12.0",
+    "tsparticles-interaction-external-repulse": "^2.12.0",
+    "tsparticles-interaction-particles-links": "^2.12.0",
+    "tsparticles-move-base": "^2.12.0",
+    "tsparticles-plugin-absorbers": "^2.12.0",
+    "tsparticles-plugin-emitters": "^2.12.0",
+    "tsparticles-shape-circle": "^2.12.0",
+    "tsparticles-updater-angle": "^2.9.3",
+    "tsparticles-updater-color": "^2.12.0",
+    "tsparticles-updater-opacity": "^2.12.0",
+    "tsparticles-updater-size": "^2.12.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "vite": "^6.2.0"
+  }
+}
